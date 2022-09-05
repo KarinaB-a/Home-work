@@ -1,8 +1,6 @@
 ﻿Console.WriteLine("Введите два числа ");
-string input1 = Console.ReadLine();
-string input2 = Console.ReadLine();
-int number1 = int.Parse(input1);
-int number2 = int.Parse(input2);
+int number1 = int.Parse(Console.ReadLine());
+int number2 = int.Parse(Console.ReadLine());
 
 if(number1 > number2)
 {
